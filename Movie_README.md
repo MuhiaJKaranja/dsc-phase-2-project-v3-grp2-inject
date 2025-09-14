@@ -76,10 +76,11 @@ The workflow is **modular** so teammates can add Rotten Tomatoes, TMDB, Box Offi
 
 ### 5.2 Budget vs ROI
 - Regression **ROI ~ log10(budget)** with diagnostics; informs budget bands and slate mix.
+- Visuals: spread/deviation of individual movies ROI against the production budget(represented as a log value), distribution of ROI by Production budget tier
 
 ### 5.3 Runtime vs ROI
 - Regression **ROI ~ runtime_minutes** with diagnostics; checks for diminishing returns with very long runtimes.
-- Visuals: Runtime vs Return on Investment with rehression line.
+- Visuals: Runtime vs Return on Investment with regression line.
 - Interpretation:  The graph shows that runtime has no meaningful effect on profitability.
 
 > Teammates can extend with Rotten Tomatoes/TMDB (ratings, votes), cast/star power, franchise flags, marketing proxies.
