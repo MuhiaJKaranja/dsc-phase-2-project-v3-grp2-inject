@@ -64,6 +64,8 @@ The workflow is **modular** so teammates can add Rotten Tomatoes, TMDB, Box Offi
 - **Simple linear regression** (StatsModels): ROI ~ log10(budget), ROI ~ runtime.
 - **Diagnostics:** QQ plot (normality) and residuals vs fitted (homoscedasticity).
 - **Outlier awareness:** distributions plotted; optional winsorization/log transforms for sensitivity.
+- **Scatterplot visualization:** to visualize the relationship between production budget (on a log scale) and ROI.
+- **Pearson Correlation Analysis:** to measure the strength and direction of the linear relationship between production budget and ROI. The p-value was used to test statistical significance.
 
 ---
 
@@ -77,11 +79,13 @@ The workflow is **modular** so teammates can add Rotten Tomatoes, TMDB, Box Offi
 ### 5.2 Budget vs ROI
 - Regression **ROI ~ log10(budget)** with diagnostics; informs budget bands and slate mix.
 - Visuals: spread/deviation of individual movies ROI against the production budget(represented as a log value), distribution of ROI by Production budget tier
+<img width="1116" height="711" alt="image" src="https://github.com/user-attachments/assets/4ec9a1a9-ecc1-4144-8f3c-e118338f5a65" />
 
 ### 5.3 Runtime vs ROI
 - Regression **ROI ~ runtime_minutes** with diagnostics; checks for diminishing returns with very long runtimes.
 - Visuals: Runtime vs Return on Investment with regression line.
 - Interpretation:  The graph shows that runtime has no meaningful effect on profitability.
+<img width="800" height="547" alt="image" src="https://github.com/user-attachments/assets/55d05779-e3cb-4394-98f0-623003b71546" />
 
 > Teammates can extend with Rotten Tomatoes/TMDB (ratings, votes), cast/star power, franchise flags, marketing proxies.
 
@@ -152,5 +156,4 @@ data/
 ---
 
 ## 11) Contact
-Owner: _Your Name_ · _your.email@example.com_ · _LinkedIn URL_  
-Collaborators: _Teammate A, Teammate B, …_
+Owner: David Munyiri, John Karanja, Catherine Gachiri, Jeremiah Bii · _your.email@example.com_ · _LinkedIn URL_ 
