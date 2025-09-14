@@ -75,6 +75,7 @@ The workflow is **modular** so teammates can add Rotten Tomatoes, TMDB, Box Offi
 - Per-genre **n, mean ROI, median ROI, % profitable**.
 - Visuals: Top 10 by **Avg ROI**, Top 10 by **% Profitable**, **boxplots** (outliers hidden).  
 - Interpretation: Favor genres above overall Avg ROI **and** with high % profitable; medians close to means suggest less outlier risk.
+<img width="1124" height="798" alt="image" src="https://github.com/user-attachments/assets/8efae24a-d2a4-46fe-8ab0-a22072223f3d" />
 
 ### 5.2 Budget vs ROI
 - Regression **ROI ~ log10(budget)** with diagnostics; informs budget bands and slate mix.
