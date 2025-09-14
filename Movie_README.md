@@ -141,7 +141,7 @@ data/
 
 ## 9) Team Collaboration Notes
 
-- Add new analyses as **separate notebooks** (e.g., `notebooks/ratings_analysis.ipynb`).
+- Add **separate notebooks** for each team member (e.g., `student-phase2project-cg.ipynb`, `Student-Budget vs ROI-JK`, `student-DM`).
 - Export figures to `/figures` and reference them in `presentation.pptx`.
 - Use **clear commit messages** (`feat:`, `fix:`, `viz:`, `doc:`) and keep commits small.
 
